@@ -1,0 +1,11 @@
+{
+    "prod": {
+        "aws_region": "us-east-2",
+        "django_settings": "django_zappa_circleci.settings",
+        "project_name": "django-zappa-ci",
+        "runtime": "python3.8",
+        "s3_bucket": "circleci324eewrwer",
+        "slim_handler": true,
+        "remote_env": "s3://projects-configurations/django-zappa-circle-ci/prod.json"
+    }
+}
