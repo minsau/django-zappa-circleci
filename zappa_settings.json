@@ -6,6 +6,16 @@
         "runtime": "python3.8",
         "s3_bucket": "circleci324eewrwer",
         "slim_handler": true,
-        "remote_env": "s3://projects-configurations/django-zappa-circle-ci/prod.json"
+        "remote_env": "s3://projects-configurations/django-zappa-circle-ci/prod.json",
+        "vpc_config": {
+          "SubnetIds": [
+            "subnet-026d242e32ae49a98",
+            "subnet-03c33af3a0cc2b645",
+            "subnet-0f47567302d4e65db"
+          ],
+          "SecurityGroupIds": [
+            "sg-04c1f1118b778d2bf"
+          ]
+        }
     }
 }
